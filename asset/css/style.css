@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(111deg, #050707 30%, #ff7b00b9 70%, #0a0502 90%);
+    font-family: Arial;
+}
+header{
+    width: 100%;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav img {
+    width: 6%;
+    position: static;
+    margin-left: 5%;
+}
+
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+    font-size: 14px;
+    align-items: center; 
+    cursor: pointer; 
+}
+.reserve button{
+    border: none;
+    margin: 2vh;
+    background-color:rgb(255, 94, 0);
+    color: white;
+    padding:3vh 1vh 3vh 1vh;
+    box-shadow: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reserve button:hover {
+    color: black;
+}
+.nav-links a{
+    font-size: 18px;
+    color: white;
+}
+.heading{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../image/home.jpeg);
+    background-size: cover;
+    background-position: center ;
+    gap: 4vh;
+    align-items: center;
+}
+.heading h1{
+    margin: 6vh;
+    margin-top: 20vh;
+}
+.heading_content{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.heading_content h1{
+    font-size: 90px;
+    background: linear-gradient(to right, #FFFFFF 57%, #FF770F 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform .7s;
+}
+
+.heading_content h1:hover {
+    transform: scale(1.2); 
+}
+
+.heading_content p{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.nav-links a:hover {
+    color: rgb(226, 99, 25);
+}
+
+@media  screen and (max-width: 600px) {
+    .nav-links li{
+        display: block;
+    }
+
+    .nav-links {
+        gap: 3vw;
+        font-size: 10px;
+
+    }
+    .reserve {
+        display: block;
+        padding: 1vh 1vh 1vh 1vh;
+    }
+
+    nav {
+        background-color: black;
+    }
+
+    .content p {
+        font-size: 20px;
+        padding: 0% 7%;
+        width: 80%;
+      }
+  }
+
+  @media  screen and (max-with: 400px) {
+        
+
+      
+  }
+
+  .main {
+    padding-top: 5%;
+  }
+
+  .about_begin {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .about_begin h5 {
+      text-align: justify;
+      margin: 4%;
+      color: rgb(255, 255, 255);
+  }
+
+  .about_begin img {
+      width:50%;
+      height: 50%;
+      margin: 4%;
+      border-radius:1%;
+  }
+
+  
+  
+  .story {
+    margin: 40px;
+    padding-top: 6%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  
+  .column {
+    flex: 50%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  
+  @media screen and (max-width: 860px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .about_begin h5 {
+      flex: 50%;
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 11px;
+      }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 10px;
+      }
+  }
+
+  @media screen and (max-width: 650px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 9px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .about_begin img {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 8px;
+      }
+  }
+
+  @media screen and (max-width: 560px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 7.2px;
+      }
+  }
+
+  @media screen and (max-width: 533px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 7px;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 6.5px;
+      }
+  }
+
+  @media screen and (max-width: 450px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 6px;
+      }
+  }
+
+  @media screen and (max-width: 380px) {
+    .about_begin h5 {
+        flex: 50%;
+        font-size: 5px;
+      }
+  }
+
+  #putty {
+      opacity: 0;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  .imago {
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;    
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 200%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 40%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 13.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .Resa {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-top: 4%;
+    flex-direction: column;
+    background-image: url(/asset/image/madness.jpeg);
+    background-size: cover;
+    background-position: center ;
+    gap: 3vh;
+    align-items: flex-start;
+}
+
+.content{
+    padding-top: 6.5vh;
+    padding-left: 5vw;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    align-items: flex-start;
+}
+.content h2{
+    font-size: 35px;
+    color: rgb(252, 111, 30);
+    text-align:start;
+}
+
+.content p{
+    font-size: 12px;
+    color: whitesmoke;
+    font-size: 18px;
+    padding-right: 35%;
+}
+.start{
+   cursor: pointer;
+   border: 1px solid white;
+   background-color: transparent;
+   padding: 2vh 3.5vh 2vh 3.5vh;
+   color: white;
+   font-size: 1.5em;
+   box-shadow: 0 6px 6px rgba(0, 0, 0, 6);
+   border-radius: 5px;
+}
+.start:hover{
+    background-color: black;
+    color: rgb(255, 94, 0);
+    border: 1px solid rgb(255, 94, 0);
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+}
+
+.footer-wave-svg {
+  display: block;
+  position: relative;
+  top: -1px;
+  width: 100%;
+}
+
+.footer-wave-path {
+  fill: rgb(253, 157, 84);
+}
+
+.sponsor_partenaire {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content h2 {
+  margin-left: 30px;
+}
+
+.sponsor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+  gap: 3%;
+  align-items: center;
+}
+
+.kudeta {
+  margin-right: 20%;
+}
+
+.partenaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4%;
+  margin: 0% 0% 3% 5%;
+}
+
+
+
+.footer-copyright {
+  background-color: rgb(253, 157, 84);
+  color: #fff;
+  padding: 15px 30px;
+text-align: center;
+}
+
+.footer-copyright-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.footer-copyright-text {
+color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer-copyright-link {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+@media (min-width:320px) and (max-width:479px)  { 
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:480px) and (max-width:599px)  { 
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:600px) and (max-width: 800px)  { 
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+
+
+@media (min-width: 760px) {
+  .footer-content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      position: relative;
+  }
+
+  .footer-wave-svg {
+      height: 50px;
+  }
+
+  .footer-content-column {
+      width: 24.99%;
+  }
+}
+@media (min-width: 568px) {
+   .footer-content-column {
+      width: 49.99%;
+  
+}
+}
