@@ -18,7 +18,6 @@ créant une interface attrayante.
 
 ## Captures d'écran
 
-Incluez des captures d'écran ou des GIF montrant votre site Web. Vous pouvez utiliser un outil comme [ScreenToGif](https://www.screentogif.com/) pour créer des GIF.
 
 ## Fonctionnalités
 
