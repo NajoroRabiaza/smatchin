@@ -6,7 +6,6 @@ les équipes et les détails de réservation.
 ## Table des matières
 
 - [Description]
-- [Captures d'écran]
 - [Fonctionnalités]
 - [Pour commencer]
 
@@ -16,7 +15,7 @@ Smatch'in est un site Web dédié à un tournoi de basketball univesitaire à ma
 les équipes participantes et permet aux utilisateurs de faire des réservations. Le projet est construit en utilisant HTML et CSS, 
 créant une interface attrayante.
 
-## Captures d'écran
+
 
 
 ## Fonctionnalités
