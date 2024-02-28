@@ -347,8 +347,10 @@ color: #fff;
     }
 }
 
-@media  screen and (max-with: 400px) {
-      
+@media screen and (max-width: 400px) {
+  .nav img {
+    display: none;
+  }
 }
 
 @media (min-width:320px) and (max-width:479px)  { 
@@ -450,8 +452,12 @@ color: #fff;
 }
 
 @media screen and (max-width: 412px) {
-  .
+  .nav img {
+    display: none;
+    border: 2px solid red; /* Ajoutez cette ligne pour tester */
+  }
 }
+
 
 @media screen and (max-width: 450px) {
   .about_begin h5 {
