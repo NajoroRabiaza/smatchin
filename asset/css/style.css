@@ -202,12 +202,12 @@ nav img {
     display: flex;
     padding-top: 4%;
     flex-direction: column;
-    background-image: url(/asset/image/madness.jpeg);
+    background-image: url(../image/madness.jpeg);
     background-size: cover;
     background-position: center ;
     gap: 3vh;
     align-items: flex-start;
-}
+}                 
 
 .content{
     padding-top: 6.5vh;
@@ -451,12 +451,6 @@ color: #fff;
     }
 }
 
-@media screen and (max-width: 412px) {
-  .nav img {
-    display: none;
-    border: 2px solid red; /* Ajoutez cette ligne pour tester */
-  }
-}
 
 
 @media screen and (max-width: 450px) {
