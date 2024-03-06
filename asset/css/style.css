@@ -382,16 +382,7 @@ color: #fff;
 }
 
 
-@media screen and (max-width: 860px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-  .about_begin h5 {
-    flex: 50%;
-    font-size: 12px;
-  }
-}
+
 
 @media screen and (max-width: 800px) {
   .about_begin h5 {
