@@ -10,6 +10,12 @@ body {
     background: linear-gradient(111deg, #050707 30%, #ff7b00b9 70%, #0a0502 90%);
     font-family: Arial;
 }
+
+:root {
+  --main-color: brown;
+}
+
+
 header{
     width: 100%;
     background-color: black;
@@ -31,7 +37,6 @@ nav img {
     position: static;
     margin-left: 5%;
 }
-
 
 
 .nav-links{
