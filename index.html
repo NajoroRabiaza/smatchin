@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="asset/icons/smatchin.png" type="image/png">
-    <title>Smatch'in</title>
+    <title>Smatch'in - Tournoi de Basketball</title>
     <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header id="home">
         <nav>
-            <img src="asset/image/logo.png" alt="">
-            <div>
-                <ul class="nav-links">
-                    <a href="#home">Home</a>
-                    <a href="#main">About</a>
-                    <a href="#story">Story</a>
-                    <a href="#Resa">Evenement</a>
-                    <a href="https://www.ticketplace.io/" class="reserve">
+            <img src="asset/image/logo.png" alt="Logo Smatchin" class="logo">
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#main">About</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#Resa">Événement</a></li>
+                <li class="reserve desktop-reserve">
+                    <a href="https://www.ticketplace.io/">
                         <button>Réserver</button>
                     </a>
-                </ul>
+                </li>
+            </ul>
+            <div class="mobile-reserve">
+                <a href="https://www.ticketplace.io/">
+                    <button>Réserver</button>
+                </a>
             </div>
         </nav>
         <div class="heading">
             <div class="heading_content">
                 <h1>Smatch'in</h1>
-                <p>"plongez dans l'atmosphère enivrante de smatch'in. ne manquez pas l'occasion de revivre ces instants
-                    magiques!"</p>
+                <p>"Plongez dans l'atmosphère enivrante de Smatch'in. Ne manquez pas l'occasion de revivre ces instants magiques!"</p>
             </div>
         </div>
     </header>
@@ -38,106 +49,66 @@
     <main class="main" id="main">
         <section class="about-all">
             <div class="about_begin">
-                <h5>Smatch’In est avant tout un tournoi universitaire de basketball, avec la participation des divers
-                    établissements et instituts d’enseignement supérieur. Les concours de tir à trois points, de dunk
-                    ainsi que de Miss et Mister, singularisent cette compétition. Un vrai festival de basketball et une
-                    référence en termes d’organisation et d’affluence.
-                    Plus de trente équipes et plus de 4.000 spectateurs sont en effet attendus au Palais des sports pour
-                    vivre l’ambiance de fête du ballon orange pendant les huit jours de compétition.
-                    Cette fois, l’Essca chez les dames et l’U-MAGIS chez les hommes, vainqueurs de la dernière édition,
-                    sont les deux équipes à battre. Les autres formations, notamment les deux malheureuses finalistes en
-                    2022, l’Imgam et l’Esmia, ont annoncé leur participation dans l’unique but de prendre leur revanche.
-                    Le Palais des Sports Ma­hamasina, accueillera le tournoi annuel inter-instituts de basketball
-                    Smatch’In, du 9 au 17 mars, après l’annulation de la dernière édition pour cause d’élection
-                    présidentielle en novembre.
-                </h5>
-                <img src="asset/image/about.jpeg" alt="">
+                <div class="about-text">
+                    <p>Smatch'In est avant tout un tournoi universitaire de basketball, avec la participation des divers établissements et instituts d'enseignement supérieur. Les concours de tir à trois points, de dunk ainsi que de Miss et Mister, singularisent cette compétition.</p>
+                    <p>Plus de trente équipes et plus de 4.000 spectateurs sont attendus au Palais des sports pour vivre l'ambiance de fête du ballon orange pendant les huit jours de compétition.</p>
+                </div>
+                <img src="asset/image/about.jpeg" alt="A propos" class="about-img">
             </div>
 
             <div class="story" id="story">
-                <div class="row">
-                    <div class="column">
-                        <div class="container">
-                            <img src="asset/image/player.jpeg" style="width:200%" class="imago">
-                            <div class="overlay">
-                                <div class="text">Cette version 2024 approuvée par la Fédération malgache de basketball
-                                    (FMBB) promet dans la mesure où il coïncide avec la célébration de ses dix ans
-                                    d’existence.
-                                    La dernière édition a eu lieu en 2022. C’était l’université jésuite U-Magis qui a
-                                    remporté la coupe chez les garçons.
-                                </div>
-                            </div>
-                        </div>
-                        <img src="asset/image/happy.jpeg" style="width:100%">
-                        <img <img src="asset/image/cry.jpeg" style="width:100%">
-                        <div class="container">
-                            <img src="asset/image/miss.jpeg" style="width:200%">
-                            <div class="overlay">
-                                <div class="text">Et comme basket-ball universitaire rime avec ambiance et fêtes, il y a
-                                    aussi eu durant l’événement des concours de danse, de DJ, de Miss et de Mister.
-                                    Il y a eu la Miss et ses dauphines, le Mister et ses dauphins. Mais aussi la Miss
-                                    photogénique et le Mister photogénique,
-                                </div>
-                            </div>
-                        </div>
-                        <img <img src="asset/image/singer.jpeg" style="width:100%">
-                        <img src="asset/image/light_phone.jpeg" style="width:100%">
-                        <img src="asset/image/fouls.jpeg" style="width:100%">
-
+                
+                <div class="grid-row">
+                    <div class="small-col">
+                        <img src="asset/image/happy.jpeg" alt="Ambiance">
+                        <img src="asset/image/cry.jpeg" alt="Émotion">
                     </div>
-                    <div class="column">
-                        <img id="putty" src="asset/image/player.jpeg" style="width:100%">
-                        <img id="putty" src="asset/image/game.jpeg" style="width:100%">
+                    <div class="large-col">
                         <div class="container">
-                            <img src="asset/image/panier.jpeg" style="width:200%">
+                            <img src="asset/image/player.jpeg" alt="Action">
                             <div class="overlay">
-                                <div class="text">Chez les filles, le trophée était parti du côté de l’Ecole supérieure
-                                    sacré-cœur d’Antanimena (Essca). Initialement prévue du 11 au 19 novembre 2023,
-                                    cette 10e édition s’est vue être reportée par la Team Smatch’In estimant que les
-                                    conditions “ne sont pas réunies” pour tenir un événement réussi.</div>
+                                <div class="text">Cette version 2024 approuvée par la FMBB promet dans la mesure où elle coïncide avec la célébration de ses dix ans d'existence.</div>
                             </div>
                         </div>
-                        <img id="putty" src="asset/image/game.jpeg" style="width:100%">
-                        <img id="putty" src="asset/image/player.jpeg" style="width:100%">
-                        <div class="container">
-                            <img src="asset/image/deejay.jpeg" style="width:200%">
-                            <div class="overlay">
-                                <div class="text">L’ambiance a été au rendez-vous, Les DJ,s du RDJ’s Teaml Dj Shinchan
-                                    l’animation de Rak Roots, Dalvis et a enflammé les supporters venus nombreux au
-                                    Palais.
-                                    guichet fermé, une très bonne qualité de l’animation, la satisfaction et
-                                    participation très active du public tout au long de l’après-midi. Le public était au
-                                    rendez-vous.
-                                </div>
-                            </div>
-                        </div>
-                        <img src="asset/image/dance_contest.jpeg" style="width:100%">
                     </div>
-                    <div class="column">
-                        <img src="asset/image/prize.jpeg" style="width:100%">
-                        <img src="asset/image/salutation.jpeg" style="width:100%">
-                        <img id="putty" src="asset/image/player.jpeg" style="width:100%">
-                        <img id="putty" src="asset/image/game.jpeg" style="width:96%">
-                        <img src="asset/image/two.jpeg" style="width:100%">
-                        <img src="asset/image/dauphine.jpeg" style="width:100%">
-                        <img id="putty"="asset/image/game.jpeg" style="width:100%">
-                        <img id="putty" src="asset/image/game.jpeg" style="width:85%">
-                        <img id="putty" src="asset/image/game.jpeg" style="width:100%">
-                        <img src="asset/image/dance.jpeg" style="width:100%">
-                    </div>
-
                 </div>
 
+                <div class="grid-row">
+                    <div class="small-col">
+                        <img src="asset/image/singer.jpeg" alt="Artiste">
+                        <img src="asset/image/light_phone.jpeg" alt="Public">
+                    </div>
+                    <div class="large-col">
+                        <div class="container">
+                            <img src="asset/image/miss.jpeg" alt="Miss Smatchin">
+                            <div class="overlay">
+                                <div class="text">Et comme basket-ball universitaire rime avec ambiance et fêtes, il y a aussi eu durant l'événement des concours de danse, de DJ, de Miss et de Mister.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-row">
+                    <div class="small-col">
+                        <img src="asset/image/dance_contest.jpeg" alt="Concours danse">
+                        <img src="asset/image/prize.jpeg" alt="Récompense">
+                    </div>
+                    <div class="large-col">
+                        <div class="container">
+                            <img src="asset/image/panier.jpeg" alt="Le panier">
+                            <div class="overlay">
+                                <div class="text">Chez les filles, le trophée était parti du côté de l'Ecole supérieure sacré-cœur d'Antanimena (Essca). Une édition historique !</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="Resa" id="Resa">
             <div class="content">
-                <h2>Le 09 jusqu'au 17 Mars 2024 dans le Palais des sports Mahamasina</h2>
-                <p> Debout ou assis, venez assister <br>
-                    et soutenir votre école <br>
-
-
-                </p>
+                <h2>Du 09 au 17 Mars 2024 au Palais des sports Mahamasina</h2>
+                <p>Debout ou assis, venez assister et soutenir votre école !</p>
                 <a href="https://www.ticketplace.io/">
                     <button class="start">Réserver</button>
                 </a>
@@ -145,48 +116,35 @@
         </section>
     </main>
 
+    <footer class="footer">
+        <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+            <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+        </svg>
+        <div class="footer-content">
+            <div class="sponsor_partenaire">
+                <h2>Sponsor et partenariat</h2>
+                <div class="sponsor">
+                    <img src="asset/image/orange.png" alt="Orange" width="70">
+                    <img src="asset/image/youzou.png" alt="Youzou" width="80">
+                    <img src="asset/image/fmbb.png" alt="FMBB" width="100">
+                    <img src="asset/image/team_smatchin.png" alt="Team" width="90">
+                </div>
+                <div class="partenaire">
+                    <img src="asset/image/oklg.png" alt="OKLG" width="70">
+                    <img class="kudeta" src="asset/image/kudeta.png" alt="Kudeta" width="70">
+                    <div class="socials">
+                        <h3>Suivez-nous :</h3>
+                        <a href="https://web.facebook.com/smatchin" target="_blank"><img src="asset/icons/facebook.png" alt="FB" width="30"></a>
+                        <a href="https://www.instagram.com/direct/t/118719592852004" target="_blank"><img src="asset/icons/insta.png" alt="IG" width="30"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>©2024. | Designed By: Amboara Najoro. | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
 </body>
-<footer class="footer">
-    <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
-        <path class="footer-wave-path"
-            d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
-        </path>
-    </svg>
-    <div class="footer-content">
-        <div class="sponsor_partenaire">
-            <h2>Sponsor et partenariat</h2>
-            <div class="sponsor">
-                <img src="asset/image/orange.png" alt="" width="70" height="70">
-                <img src="asset/image/youzou.png" alt="" width="80" height="80">
-                <img src="asset/image/fmbb.png" alt="" width="100" height="70">
-                <img src="asset/image/team_smatchin.png" alt="" width="90" height="90">
-                <img src="asset/image/moozik.png" alt="" width="120" height="90">
-                <img src="asset/image/ivenco.jpeg" alt="" width="90" height="90">
-            </div>
-            <div class="partenaire">
-                <img src="asset/image/oklg.png" alt="" width="70" height="70">
-                <img class="kudeta" src="asset/image/kudeta.png" alt="" width="70" height="160">
-                <h2>Contacter nous sur : </h2>
-                <a class="facebook" href="https://web.facebook.com/smatchin" target="_blank">
-                    <img src="asset/icons/facebook.png" alt="" width="30" height="30">
-                </a>
-                <a class="facebook" href="https://www.instagram.com/direct/t/118719592852004" target="_blank">
-                    <img src="asset/icons/insta.png" alt="" width="30" height="30">
-                </a>
-            </div>
-        </div>
-
-
-
-    </div>
-    <div class="footer-copyright">
-        <div class="footer-copyright-wrapper">
-            <p class="footer-copyright-text">
-                <a class="footer-copyright-link" href="#" target="_self"> ©2024. | Designed By: Amboara Najoro. | All
-                    rights reserved. </a>
-            </p>
-        </div>
-    </div>
-</footer>
-
 </html>

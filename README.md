@@ -3,6 +3,11 @@
 Ce dépôt contient le code source du site Web Smatch'in, un site dédié à un tournoi de basketball avec des informations sur l'événement, 
 les équipes et les détails de réservation.
 
+## Vous voulez explorer ? Consultez ce lien :
+```bash
+https://najororabiaza.github.io/smatchin/
+```
+
 ## Table des matières
 
 - [Description]
